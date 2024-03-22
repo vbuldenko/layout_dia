@@ -1,0 +1,2 @@
+const e=document.querySelector(".slider");let t=1;const r=document.querySelector(".slider__arrow--left"),n=document.querySelector(".slider__arrow--right");function s(r){e.classList.remove(`slider--slide-${t}`),"next"===r?t=3===t?1:t+1:"prev"===r&&(t=1===t?3:t-1),e.classList.add(`slider--slide-${t}`)}r.addEventListener("click",function(){s("prev")}),n.addEventListener("click",function(){s("next")}),setInterval(()=>{s("next")},5e3);
+//# sourceMappingURL=index.bce454a2.js.map
